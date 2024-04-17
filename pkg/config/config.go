@@ -7,7 +7,7 @@ type Config struct {
 	DBHost        string `mapstructure:"DBHost"`
 	DBPort        string `mapstructure:"DBPort"`
 	DBUser        string `mapstructure:"DBUser"`
-	DbPassword    string `mapstructure:"DBPassword"`
+	DBPassword    string `mapstructure:"DBPassword"`
 	DBName        string `mapstructure:"DBName"`
 	ProductSvcUrl string `mapstructure:"PRODUCT_SVC_URL"`
 }
